@@ -80,7 +80,6 @@
   - ブラウザで[ScratchX](http://scratchx.org/#scratch)にアクセスします
   - メニューの[File > Load Project]を選択して、プロジェクトフォルダ配下の`client/ネコメール.sbx`を選択して読み込みます
   - [Replace contents of the current project?]と聞かれるので[OK]を選択します
-  - [The extensions on this site are experimental]と聞かれたら[I understand, continue]を選択します
 
 7. エクステンションファイルの読み込み
   - ScratchXの画面上で[Scripts > More Blocks]を選択します
