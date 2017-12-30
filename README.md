@@ -8,6 +8,7 @@
 3. SendGridと連携してメールを送受信するサーバプログラム
 
 ## 必要なもの
+- SendGridアカウント
 - 独自ドメインとそのドメインのDNSの管理権限
 - ScratchXにアクセスできる環境
 - Node.js
@@ -84,7 +85,7 @@
 7. エクステンションファイルの読み込み
   - ScratchXの画面上で[Scripts > More Blocks]を選択します
   - [Load experimental extension]ボタンを選択します
-  - [Open an Extension URL]のテキストボックスで[`http://localhost:3000/extension.js`]と入力して[Open]ボタンを選択してExtensionファイルを読み込みます
+  - [Open an Extension URL]に[`http://localhost:3000/extension.js`]と入力して[Open]ボタンを選択してExtensionファイルを読み込みます
   - [The extensions on this site are experimental]と聞かれたら[I understand, continue]を選択します
 
 以上で準備完了です。  
@@ -102,4 +103,4 @@
 最低限の実装のみ行っているのでいろいろ足りません。
 - メールの新規作成機能
 - 受信メールの保存、閲覧、管理機能
-- UTF-8以外のエンコード方式への対応（JISメールは正常に扱えません）
+- UTF-8以外のエンコード方式への対応
